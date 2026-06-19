@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Migzidups | Official Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="img/main-logo.png" type="image/x-icon">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css" />
+
+
+  <!-- SEO Meta Tags -->
+ <meta name="description" content="Official site of Migzidups. Explore music, merch, gallery, and latest updates.">
+  <meta name="keywords" content="Migzidups, music artist, hip-hop, rap, OPM, merch, gallery, latest tracks, official website">
+  <meta name="author" content="Migzidups">
+  
+  <meta property="og:url" content="https://auakitchenfab.com/" />
+<meta property="og:type" content="website" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-wrapper">
+            <div class="nav-left">
+                <img src="img/main-logo.png" alt="Logo" class="logo" />
+            </div>
+
+            <div class="nav-right" id="navMenu">
+                <a href="#music">Music</a>
+                <a href="#merch">Merch</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#latest">Latest</a>
+            </div>
+
+            <button class="menu-toggle" onclick="toggleMenu()"><i class="ri-menu-fill"></i></button>
+
+        </div>
+    </nav>
+    <!-- Loader -->
+<div class="loader-container" id="loader">
+    <img src="img/main-logo.png" class="loader-logo" alt="Loading...">
+</div>
+<div id="content">
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <!-- From Uiverse.io by JaydipPrajapati1910 -->
+            <button class="c-button c-button--gooey" id="openPopup"> Stream Now
+                <div class="c-button__blobs">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            </button>
+            <svg style="display: block; height: 0; width: 0;" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                    <filter id="goo">
+                        <feGaussianBlur result="blur" stdDeviation="10" in="SourceGraphic"></feGaussianBlur>
+                        <feColorMatrix result="goo" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" mode="matrix"
+                            in="blur"></feColorMatrix>
+                        <feBlend in2="goo" in="SourceGraphic"></feBlend>
+                    </filter>
+                </defs>
+            </svg>
+        </div>
+    </section>
+    <div class="overlay" id="overlay">
+        <div class="popup">
+            <div class="links">
+                <a class="youtube" href="https://www.youtube.com/@Migzidups" target="_blank"><i
+                        class="ri-youtube-fill"></i> Youtube</a>
+                <a class="spotify" href="https://open.spotify.com/artist/71L57u4T1ELkwpVoCviYqK" target="_blank"><i
+                        class="ri-spotify-fill"></i> Spotify</a>
+                <a class="apple" href="https://music.apple.com/ph/artist/migzidups/1746577444" target="_blank"><i
+                        class="ri-apple-fill"></i> Music</a>
+            </div>
+        </div>
+    </div>
+    <section class="music-section" id="music">
+        <h2 class="section-title">MUSIC</h2>
+
+        <div class="swiper">
+            <div class="swiper-wrapper">
+
+                <!-- Music 1 -->
+                <div class="swiper-slide">
+                    <img src="img/music_1.jpg" alt="Track 1">
+                    <h3>Lumulutang</h3>
+                    <p><i class="ri-disc-fill"></i> Single</p>
+                    <a href="https://open.spotify.com/track/3h6XAdB9ssxzQEDY0KsIDr"
+                        class="listen-now"><span>Listen Now</span></a>
+                </div>
+
+                <!-- Music 2 -->
+                <div class="swiper-slide">
+                    <img src="img/music_2.jpg" alt="Track 2">
+                    <h3>4flight</h3>
+                    <p><i class="ri-disc-fill"></i> Single</p>
+                    <a href="https://open.spotify.com/track/1gvjBM3hJdX4wIp45hpgX4"
+                        class="listen-now"><span>Listen Now</span></a>
+                </div>
+
+                <!-- Music 3 -->
+                <div class="swiper-slide">
+                    <img src="img/music_3.jpg" alt="Track 3">
+                    <h3>Call Me Up</h3>
+                    <p><i class="ri-disc-fill"></i> Single</p>
+                    <a href="https://open.spotify.com/track/7nA3ECpdbFL6CC8VAMdYXs"
+                        class="listen-now"><span>Listen Now</span></a>
+                </div>
+
+                <!-- Music 4 -->
+                <div class="swiper-slide">
+                    <img src="img/music_4.jpg" alt="Track 4">
+                    <h3>Check in</h3>
+                    <p><i class="ri-disc-fill"></i> Single</p>
+                    <a href="https://open.spotify.com/album/5tujfok14XIQlFjc80Nj6N"
+                        class="listen-now"><span>Listen Now</span></a>
+                </div>
+
+                <!-- Music 5 -->
+                <div class="swiper-slide">
+                    <img src="img/music6.jpg" alt="Track 5">
+                    <h3>Lowkey</h3>
+                    <p><i class="ri-disc-fill"></i> Single</p>
+                    <a href="https://open.spotify.com/track/4sc1ueCOuBRZqiMi9y12Ib?si=e61bbc92288d4a88&nd=1&dlsi=b38c1894f8c447ec"
+                        class="listen-now"><span>Listen Now</span></a>
+                </div>
+
+                <!-- Music 6 -->
+                <div class="swiper-slide">
+                    <img src="img/music3.jpg" alt="Track 6">
+                    <h3>Labsongan</h3>
+                    <p><i class="ri-album-fill"></i> Album</p>
+                    <a href="https://open.spotify.com/album/42tNAmpBL69iKFAhT5zHtU?si=adYNo_OATYizRVakv56dTw&nd=1&dlsi=376ae66a3d7e4c48"
+                        class="listen-now"><span>Listen Now</span></a>
+                </div>
+
+                <!-- Music 7 -->
+                <div class="swiper-slide">
+                    <img src="img/music4.jpg" alt="Track 7">
+                    <h3>Ligaw</h3>
+                    <p><i class="ri-album-fill"></i> Album</p>
+                    <a href="https://open.spotify.com/album/2aeYd4qL4E8HVBPWik7R6I?si=BEPCtM7YTtuk6JycpHzKHg&nd=1&dlsi=59cd2a3e53834c16"
+                        class="listen-now"><span>Listen Now</span></a>
+                </div>
+
+                <!-- Music 8 -->
+                <div class="swiper-slide">
+                    <img src="img/music1.jpg" alt="Track 8">
+                    <h3>Pass Sa Fake Luv</h3>
+                    <p><i class="ri-disc-fill"></i> Single</p>
+                    <a href="https://open.spotify.com/track/5SadMtM1embalgeecRV1mm?si=06774d724abe4378&nd=1&dlsi=343ed5836e8f48fc"
+                        class="listen-now"><span>Listen Now</span></a>
+                </div>
+
+                <!-- Music 9 -->
+                <div class="swiper-slide">
+                    <img src="img/music2.jpg" alt="Track 9">
+                    <h3>Runnin'On My Mind</h3>
+                    <p><i class="ri-disc-fill"></i> Single</p>
+                    <a href="https://open.spotify.com/track/6h0hXW5FMrETg1rIcMwdvB?si=026fec32384b48d9&nd=1&dlsi=0d42d0d1308c4089"
+                        class="listen-now"><span>Listen Now</span></a>
+                </div>
+
+                <!-- Music 10 -->
+                <div class="swiper-slide">
+                    <img src="img/music5.jpg" alt="Track 10">
+                    <h3>Get Bounce</h3>
+                    <p><i class="ri-disc-fill"></i> Single</p>
+                    <a href="https://open.spotify.com/track/4sZ6ds1TrLWrmFFds8KF03?si=b1907de96da648d2&nd=1&dlsi=81efb98a1069403f"
+                        class="listen-now"><span>Listen Now</span></a>
+                </div>
+            </div>
+
+            <!-- Navigation Arrows -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+    <section class="merch-section" id="merch">
+    <h2 class="section-title">MERCH</h2>
+
+    <div class="merch-items">
+
+        <!-- MERCH 1 -->
+        <div class="merch-item">
+            <div class="swipe-box" data-index="0">
+                <button class="arrow left">&#10094;</button>
+
+                <img src="img/1.png" class="active-img">
+                <img src="img/2.png">
+
+                <button class="arrow right">&#10095;</button>
+            </div>
+            <p>₱699</p>
+            <a href="https://www.instagram.com/eunoia.unknown/?hl=en" class="buy-now"><span>Buy Now</span></a>
+        </div>
+
+        <!-- MERCH 2 -->
+        <div class="merch-item">
+            <div class="swipe-box" data-index="0">
+                <button class="arrow left">&#10094;</button>
+
+                <img src="img/FRONT SHIRT.png" class="active-img">
+                <img src="img/BACK SHIRT.png">
+
+                <button class="arrow right">&#10095;</button>
+            </div>
+            <p>₱699</p>
+            <a href="https://www.instagram.com/eunoia.unknown/?hl=en" class="buy-now"><span>Buy Now</span></a>
+        </div>
+
+    </div>
+</section>
+<!-- IMAGE MODAL -->
+<div id="imgModal" class="modal">
+    <span class="modal-close">&times;</span>
+    <img class="modal-content" id="modalImg">
+
+ 
+</div>
+    <audio id="bgMusic" src="audio/neva_goin_back.mp4"></audio>
+    <section class="gallery-section" id="gallery">
+        <h2 class="section-title">GALLERY</h2>
+        <div class="gallery-items">
+            <div class="gallery-item"><img src="img/gl1.jpg" alt=""></div>
+            <div class="gallery-item"><img src="img/g11.jpg" alt=""></div>
+            <div class="gallery-item"><img src="img/gl3.jpg" alt=""></div>
+            <div class="gallery-item"><img src="img/g4.jpg" alt=""></div>
+            <div class="gallery-item"><img src="img/g9.jpg" alt=""></div>
+            <div class="gallery-item"><img src="img/g6.jpg" alt=""></div>
+            <div class="gallery-item"><img src="img/gl2.jpg" alt=""></div>
+            <div class="gallery-item"><img src="img/gl4.jpg" alt=""></div>
+        </div>
+    </section>
+    <section class="latest-section" id="latest">
+        <video id="latestVideo" class="video-background" muted loop>
+            <source src="audio/neva_goin_back.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+
+        <h2 class="section-title">LATEST</h2>
+        <div class="latest-items">
+            <div class="latest-item">
+                <a href="https://www.youtube.com/channel/UCV0PtOftDofwiA2BNzJSoIA" target="_blank" class="yt-thumb">
+                    <img src="img/neva_goin_back_latest.png" alt="YouTube Video">
+                </a>
+                <p>Check out latest upload!</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <!-- Contact Info -->
+            <div class="footer-contact">
+                <p><i class="ri-mail-fill"></i> <a
+                        href="mailto:Lobriojohnmiguel@gmail.com">Lobriojohnmiguel@gmail.com</a></p>
+                <p><i class="ri-phone-fill"></i> <a href="tel:+639123456789">+63 912 345 6789</a></p>
+            </div>
+
+            <!-- Social Media -->
+            <div class="footer-social">
+                <a href="https://www.facebook.com/johnmiguel15" target="_blank" aria-label="Facebook">
+                    <i class="ri-facebook-fill"></i>
+                </a>
+                <a href="https://www.instagram.com/migzidups.bdr/" target="_blank" aria-label="Instagram">
+                    <i class="ri-instagram-fill"></i>
+                </a>
+                <a href="https://www.youtube.com/@migzidups" target="_blank" aria-label="YouTube">
+                    <i class="ri-youtube-fill"></i>
+                </a>
+                <a href="https://open.spotify.com/artist/71L57u4T1ELkwpVoCviYqK" target="_blank" aria-label="Spotify">
+                    <i class="ri-spotify-fill"></i>
+                </a>
+            </div>
+
+            <div class="footer-sponsors">
+                <h2>Partners</h2>
+                <a href="https://auakitchenfab.com/" target="_blank">
+                    <img src="img/aua.png" alt="AUA Kitchen & Fabrication Logo" class="sponsor-logo">
+                </a>
+
+                 <a href="https://www.facebook.com/dkct.fb" target="_blank">
+                    <img src="img/dkct.png" alt="DKCT" class="sponsor-logo">
+                </a>
+
+                 <a href="https://www.youtube.com/channel/UCpdggfL3LDJHf--EAwM7A0w" target="_blank">
+                    <img src="img/4ourlife.png" alt="4ourlife" class="sponsor-logo">
+                </a>
+            </div>
+
+            <!-- Copyright -->
+            <div class="footer-copy">
+                <p>© 2025 Migzidups. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    </div>
+    
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+    const loader = document.getElementById("loader");
+
+    // Collect ALL image URLs (including CSS background images)
+    const pageImages = [];
+
+    // 1. Images in <img>
+    const imgTags = document.images;
+    for (let i = 0; i < imgTags.length; i++) {
+        if (imgTags[i].src) pageImages.push(imgTags[i].src);
+    }
+
+    // 2. Background images in CSS
+    const elements = document.querySelectorAll('*');
+    elements.forEach(el => {
+        const bg = window.getComputedStyle(el).getPropertyValue('background-image');
+        if (bg && bg !== "none" && bg.includes("url")) {
+            const url = bg.slice(5, -2); // extract URL
+            pageImages.push(url);
+        }
+    });
+
+    // Remove duplicates
+    const uniqueImages = [...new Set(pageImages)];
+    const totalImages = uniqueImages.length;
+
+    let loadedCount = 0;
+
+    if (totalImages === 0) {
+        hideLoader();
+    }
+
+    // Preload all images
+    uniqueImages.forEach(src => {
+        const img = new Image();
+        img.onload = imageLoaded;
+        img.onerror = imageLoaded; // even error still counts
+        img.src = src;
+    });
+
+    function imageLoaded() {
+        loadedCount++;
+        if (loadedCount === totalImages) {
+            hideLoader();
+        }
+    }
+
+    function hideLoader() {
+        loader.style.opacity = "0";
+        loader.style.transition = "0.6s ease";
+
+        setTimeout(() => {
+            loader.style.display = "none";
+        }, 600);
+    }
+});
+    </script>
+
+   <script>
+document.querySelectorAll('.swipe-box').forEach(box => {
+    const imgs = box.querySelectorAll("img");
+    const leftBtn = box.querySelector(".left");
+    const rightBtn = box.querySelector(".right");
+    let index = 0;
+
+    function showImage(newIndex) {
+        imgs[index].classList.remove("active-img");
+        index = newIndex;
+        imgs[index].classList.add("active-img");
+    }
+
+    // Next / Prev
+    rightBtn.addEventListener("click", () => {
+        showImage((index + 1) % imgs.length);
+    });
+    leftBtn.addEventListener("click", () => {
+        showImage((index - 1 + imgs.length) % imgs.length);
+    });
+
+    // Swipe for mobile
+    let startX = 0;
+    box.addEventListener("touchstart", e => startX = e.touches[0].clientX);
+    box.addEventListener("touchend", e => {
+        let endX = e.changedTouches[0].clientX;
+        if (endX - startX > 50) {
+            showImage((index - 1 + imgs.length) % imgs.length);
+        } else if (startX - endX > 50) {
+            showImage((index + 1) % imgs.length);
+        }
+    });
+
+    // Open modal with loader
+    box.addEventListener("click", (e) => {
+        if (e.target.tagName === "IMG") {
+            const activeImg = box.querySelector(".active-img");
+            const modal = document.getElementById("imgModal");
+            const modalImg = document.getElementById("modalImg");
+            const loader = document.getElementById("loader");
+
+            modal.style.display = "flex";
+            modalImg.style.display = "none";
+            loader.style.display = "flex"; // Show loader
+
+            modalImg.src = activeImg.src;
+            modalImg.onload = () => {
+                loader.style.display = "none"; // Hide loader
+                modalImg.style.display = "block"; // Show image
+            };
+        }
+    });
+});
+
+/* Modal Close */
+document.querySelector(".modal-close").onclick = () => {
+    document.getElementById("imgModal").style.display = "none";
+};
+
+document.getElementById("imgModal").onclick = (e) => {
+    if (e.target.id === "imgModal")
+        document.getElementById("imgModal").style.display = "none";
+};
+</script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script src="js/swiper.js"></script>
+    </section>
+    <script src="js/menu.js"></script>
+    <script src="js/content.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/flip.js"></script>
+    <script src="js/popup.js"></script>
+    <script src="js/reload.js"></script>
+    <script src="js/latest.js"></script>
+</body>
+
+</html>
